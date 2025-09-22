@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our photo gallery showcasing agroforestry projects, community activities, training sessions, and environmental conservation efforts">
+    <meta name="keywords" content="gallery, photos, agroforestry projects, community activities, training, environmental conservation">
+    <title>Gallery - Rongai Agroforestry Community Project</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="images/logo.svg" alt="Rongai Agroforestry Logo" class="logo">
+                    <span class="logo-text">Rongai Agroforestry</span>
+                </div>
+
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                        <li class="nav-item"><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="page-hero-container">
+            <h1 class="page-hero-title">Our Gallery</h1>
+            <p class="page-hero-description">
+                See our work in action - from tree planting initiatives to community
+                training sessions and successful agroforestry implementations.
+            </p>
+        </div>
+    </section>
+
+    <!-- Gallery Filter -->
+    <section class="gallery-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Photos</button>
+                <button class="filter-btn" data-filter="tree-planting">Tree Planting</button>
+                <button class="filter-btn" data-filter="training">Training</button>
+                <button class="filter-btn" data-filter="community">Community</button>
+                <button class="filter-btn" data-filter="conservation">Conservation</button>
+                <button class="filter-btn" data-filter="success">Success Stories</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery-grid">
+                <!-- Tree Planting -->
+                <div class="gallery-item" data-category="tree-planting">
+                    <div class="gallery-image">
+                        <img src="images\gallery\tree-planting-1.png" alt="Community members planting trees together">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3 class="gallery-title">Community Tree Planting Day</h3>
+                                <p class="gallery-description">Local farmers and volunteers planting 2,000 indigenous trees</p>
+                                <button class="gallery-btn" data-image="images\gallery\tree-planting-1.png">
+                                    <i class="fas fa-expand"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="tree-planting">
+                    <div class="gallery-image">
+                        <img src="images/gallery/tree-planting-2.png" alt="Young seedlings in nursery">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3 class="gallery-title">Tree Nursery</h3>
+                                <p class="gallery-description">Our community tree nursery with over 1,000 seedlings</p>
+                                <button class="gallery-btn" data-image="images/gallery/tree-planting-2.png">
+                                    <i class="fas fa-expand"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Training -->
+                <div class="gallery-item" data-category="training">
+                    <div class="gallery-image">
+                        <img src="images/gallery/training-1.png" alt="Farmers learning agroforestry techniques">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3 class="gallery-title">Agroforestry Training</h3>
+                                <p class="gallery-description">Farmers learning modern sustainable farming techniques</p>
+                                <button class="gallery-btn" data-image="images/gallery/training-1.png">
+                                    <i class="fas fa-expand"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="training">
+                    <div class="gallery-image">
+                        <img src="images/gallery/training-2.png" alt="Workshop on soil conservation">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3 class="gallery-title">Soil Conservation Workshop</h3>
+                                <p class="gallery-description">Hands-on training in soil testing and conservation methods</p>
+                                <button class="gallery-btn" data-image="images/gallery/training-2.png">
+                                    <i class="fas fa-expand"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Community -->
+                <div class="gallery-item" data-category="community">
+                    <div class="gallery-image">
+                        <img src="images/gallery/community-1.png" alt="Women farmers group meeting">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3 class="gallery-title">Women's Group Meeting</h3>
+                                <p class="gallery-description">Empowering women farmers through collective action</p>
+                                <button class="gallery-btn" data-image="images/gallery/community-1.png">
+                                    <i class="fas fa-expand"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="community">
+                    <div class="gallery-image">
+                        <img src="images/gallery/community-2.png" alt="Youth volunteers working together">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3 class="gallery-title">Youth Volunteers</h3>
+                                <p class="gallery-description">Young people actively participating in community development</p>
+                                <button class="gallery-btn" data-image="images/gallery/community-2.png">
+                                    <i class="fas fa-expand"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Conservation -->
+                <div class="gallery-item" data-category="conservation">
+                    <div class="gallery-image">
+                        <img src="images/gallery/conservation-1.png" alt="Before and after land restoration">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3 class="gallery-title">Land Restoration</h3>
+                                <p class="gallery-description">Transforming degraded land into productive agroforestry systems</p>
+                                <button class="gallery-btn" data-image="images/gallery/conservation-1.png">
+                                    <i class="fas fa-expand"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="conservation">
+                    <div class="gallery-image">
+                        <img src="images/gallery/conservation-2.png" alt="Water conservation project">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3 class="gallery-title">Water Conservation</h3>
+                                <p class="gallery-description">Rainwater harvesting systems for sustainable water management</p>
+                                <button class="gallery-btn" data-image="images/gallery/conservation-2.png">
+                                    <i class="fas fa-expand"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Success Stories -->
+                <div class="gallery-item" data-category="success">
+                    <div class="gallery-image">
+                        <img src="images/gallery/success-1.png" alt="Successful agroforestry farm">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3 class="gallery-title">Success Story: Mama Jane's Farm</h3>
+                                <p class="gallery-description">From degraded land to thriving agroforestry system</p>
+                                <button class="gallery-btn" data-image="images/gallery/success-1.png">
+                                    <i class="fas fa-expand"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="success">
+                    <div class="gallery-image">
+                        <img src="images/gallery/success-2.png" alt="Bumper harvest from agroforestry">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3 class="gallery-title">Record Harvest</h3>
+                                <p class="gallery-description">Farmers celebrating their best harvest yet through sustainable practices</p>
+                                <button class="gallery-btn" data-image="images/gallery/success-2.png">
+                                    <i class="fas fa-expand"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="success">
+                    <div class="gallery-image">
+                        <img src="images/gallery/success-3.png" alt="Community members with certificates">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3 class="gallery-title">Training Graduation</h3>
+                                <p class="gallery-description">Farmers receiving certificates after completing our training program</p>
+                                <button class="gallery-btn" data-image="images/gallery/success-3.png">
+                                    <i class="fas fa-expand"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="success">
+                    <div class="gallery-image">
+                        <img src="images/gallery/success-4.png" alt="Healthy diverse crop field">
+                        <div class="gallery-overlay">
+                            <div class="gallery-info">
+                                <h3 class="gallery-title">Diverse Cropping System</h3>
+                                <p class="gallery-description">Healthy integration of crops, trees, and livestock</p>
+                                <button class="gallery-btn" data-image="images/gallery/success-4.png">
+                                    <i class="fas fa-expand"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightbox-close">
+                <i class="fas fa-times"></i>
+            </button>
+            <button class="lightbox-prev" id="lightbox-prev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="lightbox-next" id="lightbox-next">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+            <img src="" alt="" class="lightbox-image" id="lightbox-image">
+            <div class="lightbox-caption" id="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <!-- Call to Action Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Be Part of Our Story</h2>
+                <p class="cta-description">
+                    Join us in creating more success stories like these. Every farmer,
+                    every tree, every community makes a difference.
+                </p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Get Involved</a>
+                    <a href="services.html" class="btn btn-secondary">Our Programs</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/logo.svg" alt="Rongai Agroforestry Logo" class="footer-logo-img">
+                        <span class="footer-logo-text">Rongai Agroforestry</span>
+                    </div>
+                    <p class="footer-description">
+                        Promoting sustainable farming and environmental conservation
+                        in Rongai community through innovative agroforestry solutions.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://facebook.com/rongaiagroforestry" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                            <span class="social-text">Facebook</span>
+                        </a>
+                        <a href="https://twitter.com/rongaiagro" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Twitter">
+                            <i class="fab fa-twitter"></i>
+                            <span class="social-text">Twitter</span>
+                        </a>
+                        <a href="https://instagram.com/rongaiagroforestry" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram">
+                            <i class="fab fa-instagram"></i>
+                            <span class="social-text">Instagram</span>
+                        </a>
+                        <a href="https://youtube.com/rongaiagroforestry" class="social-link" target="_blank" rel="noopener noreferrer" aria-label="Subscribe to our YouTube channel">
+                            <i class="fab fa-youtube"></i>
+                            <span class="social-text">YouTube</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-title">Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Rongai, Kenya</p>
+                        <p><i class="fas fa-phone"></i> +254 XXX XXX XXX</p>
+                        <p><i class="fas fa-envelope"></i> info@rongaiagroforestry.org</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Rongai Agroforestry Community Project. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>
