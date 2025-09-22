@@ -215,6 +215,9 @@ Then open `http://localhost:8000` in your browser.
 
 ## 🚀 Deployment
 
+### 🌐 Live Deployment
+**GitHub Pages**: [https://petermwau.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl](https://petermwau.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl)
+
 ### Static Hosting
 The website can be deployed to any static hosting service:
 
@@ -271,14 +274,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - **Partners** who make our work possible
 - **Open source community** for tools and inspiration
 
-## 📞 Support
 
-For questions, suggestions, or support:
-
-- **Email**: info@rongaiagroforestry.org
-- **Phone**: +254 XXX XXX XXX
-- **Address**: Rongai Community Center, Rongai, Kenya
-- **Office Hours**: Monday - Friday: 8:00 AM - 5:00 PM
 
 ---
 
